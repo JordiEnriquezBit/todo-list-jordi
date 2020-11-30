@@ -1,0 +1,12 @@
+<form [formGroup]="formGroup">
+  <mat-form-field>
+  <mat-label>nombre</mat-label>
+  <input matInput type="text" name='name' formControlName='_name' required>
+ </mat-form-field>
+  <mat-form-field>
+   <mat-label>description</mat-label>
+  <input matInput type="text" name='description' formControlName='_description' required>
+ </mat-form-field>
+ <button mat-raised-button (click)='saveRecord()'>Enviar</button>
+
+</form>

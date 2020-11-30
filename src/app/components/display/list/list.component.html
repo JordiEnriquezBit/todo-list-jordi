@@ -1,0 +1,5 @@
+<mat-list *ngFor="let todo of todoList">
+  <mat-list-item>name {{todo._name}} / description:{{todo._description}} /    <button mat-raised-button (click)='deleteTodo(todo)'>Delete</button> </mat-list-item>
+  <br>
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
+</mat-list>
